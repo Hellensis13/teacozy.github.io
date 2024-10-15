@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Sans-Serif;
+    font-size: 22px;
+    color: seashell;
+}
+
+body {
+    background-color: #111;
+    opacity: 0.9;
+}
+
+header {
+    background-color: #111;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.logo {
+    height: 50px;
+    margin: 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.mission {
+    display: flex;
+    background-image: url(images/img-mission-background.jpg);
+    background-position: center;
+    align-items: center;
+    background-size: cover;
+    width: 100%;
+    max-width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.container {
+    background-color: #111;
+    width: 100%;
+    opacity: 1;
+    text-align: center;
+}
+
+h2 {
+    margin: 15px 0 25px 0;
+}
+
+h4 {
+    margin: 15px;
+}
+
+.featured {
+    max-width: 1000px;
+    margin: 70px auto;
+    
+}
+
+.featured .title {
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.featured .title h2 {
+    margin-bottom: 10px;
+}    
+
+.featured .images {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 30px;
+  
+}
+
+.featured figure {
+    margin: 0;
+    text-align: center;
+    width: 300px;
+    
+}
+
+.featured img {
+    
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+.locations h2 {
+    text-align: center;
+}
+
+.locations {
+    background-image: url('images/img-locations-background.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0;
+    height: 500px;
+    max-width: 1200px;
+    width: 100%;
+ 
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.locations .containers {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    gap: 20px;
+    opacity: 1;
+  
+}
+
+.locations .container {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-color: #111;
+    opacity: 1;
+    border-radius: 5px;
+}
+
+.locations .containers .container p {
+    padding: 18px;
+}
+
+.locations .containers .container h3 {
+    padding: 18px;
+}
+
+footer {
+    background-color: #111;
+    color: seashell;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .fcenter {
+    margin-bottom: 20px;
+}
+
+.copyright {
+    
+    text-align: left;
+}
+
